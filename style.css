@@ -30,7 +30,7 @@ body {
   
  }
  .right-section  button{
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem;
  cursor: pointer;
  background-color: rgb(89, 28, 145);
  border: none;
@@ -85,6 +85,7 @@ cursor: pointer;
 }
 
 
+
 /* SECTION THREE */
 
 
@@ -97,18 +98,35 @@ cursor: pointer;
 
  }
  
-.section3 div {
+.container {
   
   flex: 1;
       
       box-sizing: border-box;
-      /* padding: 20px; */
+      padding: 40px;
       background-color: rgba(119, 49, 184, 0.91);
       border-radius: 30px;
       box-shadow: 2px 5px 20px ;
+     
+
+      position: relative;
       
   
 }
+
+.info-bar {
+position: absolute;
+top: -30px;
+left: 50px;
+right: 50px;
+
+
+color: white;
+background-color: rgb(76, 0, 147);
+padding: 1rem;
+text-align: center;
+}
+
 
 /* SECTION fOUR */
 
